@@ -1,0 +1,25 @@
+{
+  "name": "book-management-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-tsc": "tsc -w",
+    "run-watch": "nodemon ",
+    "dev": "concurrently \"npm run build-tsc\" \"npm run run-watch\" "
+  },
+  "author": "Raghad Darabee",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/uuid": "^9.0.2",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.3.0-dev.20230817"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
